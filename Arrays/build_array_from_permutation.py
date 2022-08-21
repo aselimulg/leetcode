@@ -1,4 +1,5 @@
 # 1920. Build Array from Permutation
+# easy
 # https://leetcode.com/problems/build-array-from-permutation/
 
 class Solution(object):

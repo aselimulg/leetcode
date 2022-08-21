@@ -1,4 +1,5 @@
 # 217. Contains Duplicate
+# easy
 # https://leetcode.com/problems/contains-duplicate/
 
 def containsDuplicate(nums):
