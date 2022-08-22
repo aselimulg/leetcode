@@ -17,10 +17,8 @@ def isAnagram(s, t):
 		letter_dict2[l] += 1
 
 	for k in letter_dict:
-		try:
-			if letter_dict[k] != letter_dict2[k]:
-				return False
-		except:
+		if letter_dict[k] != letter_dict2.get(k, 0):
 			return False
+		
 	
 	return True
